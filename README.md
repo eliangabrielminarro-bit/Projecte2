@@ -1,6 +1,6 @@
 # Pràctica 02: Introducció a la programació amb Python
 
-- **Alumne/a:** [El teu nom complet]
+- **Alumne/a:** Elian Miñarro
 - **Curs:** 2n SMX 
 - **Mòdul:** Projecte Intermodular
 
