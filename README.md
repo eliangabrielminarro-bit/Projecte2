@@ -5,3 +5,4 @@
 - **Mòdul:** Projecte Intermodular
 
 ## Resum del projecte
+## En aquest proyecte estem aprenent a utilitzar diferents eines com per exemple Python,GIT i VS CODE
