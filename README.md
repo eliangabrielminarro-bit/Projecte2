@@ -7,5 +7,5 @@
 ## Resum del projecte
 ## En aquest proyecte estem aprenent a utilitzar diferents eines com per exemple Python,GIT i VS CODE
 ## Sessió numeró 1:
-**En Aquesta sessió e creat un archiu .python que la seva funció és imprimir la frase hola món**
+**En Aquesta sessió he creat un archiu .python que la seva funció és imprimir la frase hola món**
 ## Sessió numeró 2:
