@@ -59,8 +59,20 @@ def mostrar_menu():
     print("4. Sortir")
 
 
-def main():
-    # Aquestes dues variables s'inicialitzen ABANS del bucle
+def nova_reparacio():
+
+    nom = input("Nom del client: ")
+
+    peces = float(input("Preu de les peces: "))
+
+    ma_obra = float(input("Cost de la mà d'obra: "))
+
+    total = calcular_preu (peces, ma_obra)
+
+    return total
+
+def reparacions():
+    # Aquestes dues variables s'inicialitzen Abans del bucle
     nombre_reparacions = 0
     facturacio_acumulada = 0.0
 
@@ -82,5 +94,5 @@ def main():
         else:
             print("Opció no vàlida. Tria una opció del menú.")
 
-
-main()
+if __name__=="__main__":
+    reparacions()
