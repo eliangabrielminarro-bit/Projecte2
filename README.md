@@ -9,4 +9,4 @@
 ## Sessió numeró 1:
 **En Aquesta sessió he creat un archiu .python que la seva funció és imprimir la frase hola món**
 ## Sessió numeró 2:
-## En aquesta sessió he realitzat els seguents exercicis:
+**En aquesta sessió he realitzat els seguents exercicis:**
