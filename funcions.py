@@ -4,6 +4,7 @@ def calcular_preu(preu_peces, cost_mà_obra):
      return total
 preu = calcular_preu(45, 30)
 print("Cost total:",preu, "€")
+#==================================
 #Exercici 2 Funcions amb condicions
 def aplicar_descompte(preu, tipus_client):
     # Acceptem el tipus de client en minúscules, majúscules o amb inicial
@@ -13,9 +14,9 @@ def aplicar_descompte(preu, tipus_client):
     if tipus == "particular":
         percentatge = 0
     elif tipus == "empresa":
-        percentatge = 10
+        percentatge = 0.10
     elif tipus == "habitual":
-        percentatge = 15
+        percentatge = 0.15
     else:
         # Tipus no vàlid: mostrem l'error i retornem el preu original
         print("Error: tipus de client no vàlid")
@@ -27,7 +28,8 @@ def aplicar_descompte(preu, tipus_client):
 print(aplicar_descompte(100, "Particular"))  
 print(aplicar_descompte(100, "Empresa"))     
 print(aplicar_descompte(100, "Habitual"))    
-print(aplicar_descompte(100, "estudiant"))   
+print(aplicar_descompte(100, "estudiant"))  
+#============================================== 
 #Exercici 3 Funcions que criden altres funcions
 def calcular_iva(preu):
     # Retorna només l'import de l'IVA (21 %), no el preu amb IVA
@@ -46,6 +48,7 @@ def calcular_factura(preu, tipus_client):
 # Proves
 print(calcular_iva(100))                  
 print(calcular_factura(100, "Empresa"))   
+#===========================================
 #Exercici 4. Programa complet: servei tècnic
 def mostrar_menu():
     print()
@@ -67,11 +70,13 @@ def main():
         opcio = input("Selecciona una opció: ").strip()
 
         if opcio == "1":
-            print("Aquí anirà la nova reparació")
+            total = nova_reparacio()
+            nombre_reparacions += 1
+            facturacio_acumulada += total
         elif opcio == "2":
             print("Nombre de reparacions realitzades:", nombre_reparacions)
         elif opcio == "3":
-            print("Facturació acumulada:", facturacio_acumulada, "€")
+             print(f"Facturació acumulada: {facturacio_acumulada:.2f} €")
         elif opcio == "4":
             print("Fins aviat!")
         else:
